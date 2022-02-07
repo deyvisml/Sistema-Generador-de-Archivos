@@ -1,0 +1,110 @@
+.niveles{
+    background: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+.rectangule{
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 527px;
+    top: 120px;
+    border: 3px solid #016E9F;
+    margin: 10px;
+}
+.rectangule2{
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 957px;
+    top: 120px;
+    border: 3px solid #C4C4C4;
+    margin: 10px;
+}
+.status{
+    display: inline-block;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    /*background: #016E9F; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 200px;
+
+}
+.status::before{
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.status.online{
+    background: #016E9F;
+}
+.status.wait{
+    background: #016E9F;
+}
+.status.offline{
+    background: #C4C4C4;
+}
+
+.numero{
+    color: white;
+    text-align: center;
+}
+
+
+.boton{
+    text-align: center;
+}
+
+.button {
+    background:#016E9F;
+    border-color: #016E9F;
+    border-width: 1px;
+    display:inline-block;
+    font-size:1;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;
+    width:170px;
+    text-decoration:none;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.btn {
+    background:white;
+    border-color: #016E9F;
+    border-width: 1px;
+    display:inline-block;
+    font-size:1;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;
+    width:170px;
+    text-decoration:none;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+
+

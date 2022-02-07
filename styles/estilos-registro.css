@@ -1,0 +1,59 @@
+body{
+    background: grey;
+    background: linear-gradient(to right, grey, yellow);
+}
+
+.imagen{
+    background-image: url(/images/imagen-registro.jpg);
+    background-position: center center;
+
+
+}
+
+.boton {
+    text-align: center;
+  }
+  
+  .button {
+    background: #2c2e49;
+    border-color: #016e9f;
+    border-width: 1px;
+    display: inline-block;
+    font-size: 1;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 170px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .btn {
+    background: white;
+    border-color: #016e9f;
+    border-width: 1px;
+    display: inline-block;
+    font-size: 1;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 170px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .form-control{
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(145, 144, 144);
+  }
+  .form-select{
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(145, 144, 144);
+  }
